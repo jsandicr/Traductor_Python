@@ -1,0 +1,72 @@
+#centralWidget {
+    background-color: #EAECF5;
+    padding: 20px;
+}
+
+#titulo {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+#select_language_label {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#languagesComboBox {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #EAECF5;
+}
+
+#languagesComboBox::drop-down {
+}
+
+#inputTextEdit {
+    font-size: 14px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#translated_text_label {
+    font-weight: bold;
+    font-size: 18px;
+    qproperty-alignment: AlignCenter;
+}
+
+#translatedTextEdit[readOnly="true"] {
+    border: 1px solid #ccc;
+    padding: 5px;
+    background-color: #EAECF5;
+}
+
+#hboxLayout {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+}
+
+#languageTitle1{
+    font-weight: bold;
+    font-size: 15px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#languageTitle2{
+    font-weight: bold;
+    font-size: 15px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
